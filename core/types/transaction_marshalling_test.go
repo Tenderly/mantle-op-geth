@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/mantle-op-geth/common"
 	"github.com/stretchr/testify/require"
 )
 

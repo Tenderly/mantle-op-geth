@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/mantle-op-geth/core/forkid"
+	"github.com/tenderly/mantle-op-geth/p2p/enr"
+	"github.com/tenderly/mantle-op-geth/params"
+	"github.com/tenderly/mantle-op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

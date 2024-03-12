@@ -25,10 +25,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/mantle-op-geth/common/hexutil"
+	"github.com/tenderly/mantle-op-geth/console/prompt"
+	"github.com/tenderly/mantle-op-geth/internal/ethapi"
+	"github.com/tenderly/mantle-op-geth/log"
 )
 
 type CommandlineUI struct {

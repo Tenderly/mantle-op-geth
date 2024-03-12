@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/mantle-op-geth/common"
 	"github.com/urfave/cli/v2"
 )
 

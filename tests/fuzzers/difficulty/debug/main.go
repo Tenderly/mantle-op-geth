@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/tests/fuzzers/difficulty"
+	"github.com/tenderly/mantle-op-geth/tests/fuzzers/difficulty"
 )
 
 func main() {

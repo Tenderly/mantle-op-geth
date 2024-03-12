@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/ethereum/go-ethereum/internal/cmdtest"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/mantle-op-geth/internal/cmdtest"
+	"github.com/tenderly/mantle-op-geth/rpc"
 )
 
 type testgeth struct {

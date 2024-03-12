@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/mantle-op-geth/accounts/abi"
+	"github.com/tenderly/mantle-op-geth/common"
 )
 
 // Tests that all the selectors contained in the 4byte database are valid.

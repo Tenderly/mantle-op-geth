@@ -3,7 +3,7 @@ package core
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/mantle-op-geth/params"
 )
 
 var (
