@@ -1034,11 +1034,6 @@ func doPurge(cmdline []string) {
 		Token:     os.Getenv("AZURE_BLOBSTORE_TOKEN"),
 		Container: strings.SplitN(*store, "/", 2)[1],
 	}
-	blobs, err := build.AzureBlobstoreList(auth)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fmt.Printf("Found %d blobs\n", len(blobs))
 
 	// Iterate over the blobs, collect and sort all unstable builds
 	for i := 0; i < len(blobs); i++ {
@@ -1062,8 +1057,4 @@ func doPurge(cmdline []string) {
 		}
 	}
 	fmt.Printf("Deleting %d blobs\n", len(blobs))
-	// Delete all marked as such and return
-	if err := build.AzureBlobstoreDelete(auth, blobs); err != nil {
-		log.Fatal(err)
-	}
 }

@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/gballet/go-verkle"
 	"github.com/tenderly/mantle-op-geth/cmd/utils"
 	"github.com/tenderly/mantle-op-geth/common"
 	"github.com/tenderly/mantle-op-geth/core/rawdb"
 	"github.com/tenderly/mantle-op-geth/internal/flags"
 	"github.com/tenderly/mantle-op-geth/log"
-	"github.com/gballet/go-verkle"
 	cli "github.com/urfave/cli/v2"
 )
 
@@ -74,7 +74,7 @@ func checkChildren(root verkle.VerkleNode, resolver verkle.NodeResolverFn) error
 	switch node := root.(type) {
 	case *verkle.InternalNode:
 		for i, child := range node.Children() {
-			childC := child.ComputeCommitment().Bytes()
+			childC := child.Commitment().Bytes()
 
 			childS, err := resolver(childC[:])
 			if bytes.Equal(childC[:], zero[:]) {
@@ -84,9 +84,9 @@ func checkChildren(root verkle.VerkleNode, resolver verkle.NodeResolverFn) error
 				return fmt.Errorf("could not find child %x in db: %w", childC, err)
 			}
 			// depth is set to 0, the tree isn't rebuilt so it's not a problem
-			childN, err := verkle.ParseNode(childS, 0, childC[:])
+			childN, err := verkle.ParseNode(childS, 0)
 			if err != nil {
-				return fmt.Errorf("decode error child %x in db: %w", child.ComputeCommitment().Bytes(), err)
+				return fmt.Errorf("decode error child %x in db: %w", child.Commitment().Bytes(), err)
 			}
 			if err := checkChildren(childN, resolver); err != nil {
 				return fmt.Errorf("%x%w", i, err) // write the path to the erroring node
@@ -144,7 +144,7 @@ func verifyVerkle(ctx *cli.Context) error {
 	if err != nil {
 		return err
 	}
-	root, err := verkle.ParseNode(serializedRoot, 0, rootC[:])
+	root, err := verkle.ParseNode(serializedRoot, 0)
 	if err != nil {
 		return err
 	}
@@ -193,7 +193,7 @@ func expandVerkle(ctx *cli.Context) error {
 	if err != nil {
 		return err
 	}
-	root, err := verkle.ParseNode(serializedRoot, 0, rootC[:])
+	root, err := verkle.ParseNode(serializedRoot, 0)
 	if err != nil {
 		return err
 	}
