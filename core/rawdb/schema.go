@@ -21,8 +21,8 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

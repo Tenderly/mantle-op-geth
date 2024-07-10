@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/testlog"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/core/types"
+	"github.com/tenderly/mantle-op-geth/internal/testlog"
+	"github.com/tenderly/mantle-op-geth/log"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

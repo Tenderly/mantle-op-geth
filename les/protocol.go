@@ -23,12 +23,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	vfc "github.com/ethereum/go-ethereum/les/vflux/client"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/core/types"
+	"github.com/tenderly/mantle-op-geth/crypto"
+	vfc "github.com/tenderly/mantle-op-geth/les/vflux/client"
+	"github.com/tenderly/mantle-op-geth/p2p/enode"
+	"github.com/tenderly/mantle-op-geth/rlp"
 )
 
 // Constants to match up protocol versions and messages

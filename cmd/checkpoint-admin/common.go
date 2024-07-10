@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/accounts/external"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/contracts/checkpointoracle"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/tenderly/mantle-op-geth/accounts"
+	"github.com/tenderly/mantle-op-geth/accounts/abi/bind"
+	"github.com/tenderly/mantle-op-geth/accounts/external"
+	"github.com/tenderly/mantle-op-geth/cmd/utils"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/contracts/checkpointoracle"
+	"github.com/tenderly/mantle-op-geth/ethclient"
+	"github.com/tenderly/mantle-op-geth/params"
+	"github.com/tenderly/mantle-op-geth/rpc"
 	"github.com/urfave/cli/v2"
 )
 

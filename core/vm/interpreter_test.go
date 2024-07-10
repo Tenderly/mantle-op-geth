@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/common/math"
+	"github.com/tenderly/mantle-op-geth/core/rawdb"
+	"github.com/tenderly/mantle-op-geth/core/state"
+	"github.com/tenderly/mantle-op-geth/params"
 )
 
 var loopInterruptTests = []string{

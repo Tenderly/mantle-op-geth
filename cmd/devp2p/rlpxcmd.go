@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ethereum/go-ethereum/cmd/devp2p/internal/ethtest"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/rlpx"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/mantle-op-geth/cmd/devp2p/internal/ethtest"
+	"github.com/tenderly/mantle-op-geth/crypto"
+	"github.com/tenderly/mantle-op-geth/p2p"
+	"github.com/tenderly/mantle-op-geth/p2p/rlpx"
+	"github.com/tenderly/mantle-op-geth/rlp"
 	"github.com/urfave/cli/v2"
 )
 

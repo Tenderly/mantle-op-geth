@@ -25,12 +25,12 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/common/hexutil"
+	"github.com/tenderly/mantle-op-geth/common/math"
+	"github.com/tenderly/mantle-op-geth/core/types"
+	"github.com/tenderly/mantle-op-geth/core/vm"
+	"github.com/tenderly/mantle-op-geth/params"
 	"github.com/holiman/uint256"
 )
 

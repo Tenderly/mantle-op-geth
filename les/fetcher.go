@@ -22,16 +22,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/fetcher"
-	"github.com/ethereum/go-ethereum/light"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/consensus"
+	"github.com/tenderly/mantle-op-geth/core"
+	"github.com/tenderly/mantle-op-geth/core/rawdb"
+	"github.com/tenderly/mantle-op-geth/core/types"
+	"github.com/tenderly/mantle-op-geth/ethdb"
+	"github.com/tenderly/mantle-op-geth/les/fetcher"
+	"github.com/tenderly/mantle-op-geth/light"
+	"github.com/tenderly/mantle-op-geth/log"
+	"github.com/tenderly/mantle-op-geth/p2p/enode"
 )
 
 const (

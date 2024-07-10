@@ -22,14 +22,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/core"
+	"github.com/tenderly/mantle-op-geth/core/state"
+	"github.com/tenderly/mantle-op-geth/core/types"
+	"github.com/tenderly/mantle-op-geth/core/vm"
+	"github.com/tenderly/mantle-op-geth/eth/tracers"
+	"github.com/tenderly/mantle-op-geth/log"
+	"github.com/tenderly/mantle-op-geth/trie"
 )
 
 // noopReleaser is returned in case there is no operation expected

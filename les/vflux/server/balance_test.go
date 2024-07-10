@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/p2p/nodestate"
+	"github.com/tenderly/mantle-op-geth/common/mclock"
+	"github.com/tenderly/mantle-op-geth/ethdb"
+	"github.com/tenderly/mantle-op-geth/ethdb/memorydb"
+	"github.com/tenderly/mantle-op-geth/les/utils"
+	"github.com/tenderly/mantle-op-geth/p2p/enode"
+	"github.com/tenderly/mantle-op-geth/p2p/enr"
+	"github.com/tenderly/mantle-op-geth/p2p/nodestate"
 )
 
 type zeroExpirer struct{}

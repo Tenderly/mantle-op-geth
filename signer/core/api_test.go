@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/ethereum/go-ethereum/signer/fourbyte"
-	"github.com/ethereum/go-ethereum/signer/storage"
+	"github.com/tenderly/mantle-op-geth/accounts"
+	"github.com/tenderly/mantle-op-geth/accounts/keystore"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/common/hexutil"
+	"github.com/tenderly/mantle-op-geth/core/types"
+	"github.com/tenderly/mantle-op-geth/internal/ethapi"
+	"github.com/tenderly/mantle-op-geth/rlp"
+	"github.com/tenderly/mantle-op-geth/signer/core"
+	"github.com/tenderly/mantle-op-geth/signer/core/apitypes"
+	"github.com/tenderly/mantle-op-geth/signer/fourbyte"
+	"github.com/tenderly/mantle-op-geth/signer/storage"
 )
 
 // Used for testing

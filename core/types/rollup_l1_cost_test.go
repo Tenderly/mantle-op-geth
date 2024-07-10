@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/tenderly/mantle-op-geth/params"
 	"github.com/stretchr/testify/require"
 )
 

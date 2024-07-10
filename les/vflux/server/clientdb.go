@@ -21,14 +21,14 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/les/utils"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/common/lru"
+	"github.com/tenderly/mantle-op-geth/common/mclock"
+	"github.com/tenderly/mantle-op-geth/ethdb"
+	"github.com/tenderly/mantle-op-geth/les/utils"
+	"github.com/tenderly/mantle-op-geth/log"
+	"github.com/tenderly/mantle-op-geth/p2p/enode"
+	"github.com/tenderly/mantle-op-geth/rlp"
 )
 
 const (

@@ -24,13 +24,13 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"github.com/tenderly/mantle-op-geth/cmd/utils"
+	"github.com/tenderly/mantle-op-geth/crypto"
+	"github.com/tenderly/mantle-op-geth/log"
+	"github.com/tenderly/mantle-op-geth/p2p/discover"
+	"github.com/tenderly/mantle-op-geth/p2p/enode"
+	"github.com/tenderly/mantle-op-geth/p2p/nat"
+	"github.com/tenderly/mantle-op-geth/p2p/netutil"
 )
 
 func main() {

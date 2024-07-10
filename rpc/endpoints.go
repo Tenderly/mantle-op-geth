@@ -20,7 +20,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/mantle-op-geth/log"
 )
 
 // StartIPCEndpoint starts an IPC endpoint.

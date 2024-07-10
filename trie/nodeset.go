@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/tenderly/mantle-op-geth/common"
 )
 
 // memoryNode is all the information we know about a single cached trie node

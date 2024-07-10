@@ -25,15 +25,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus/ethash"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/eth/ethconfig"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/miner"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/consensus/ethash"
+	"github.com/tenderly/mantle-op-geth/console/prompt"
+	"github.com/tenderly/mantle-op-geth/core"
+	"github.com/tenderly/mantle-op-geth/eth"
+	"github.com/tenderly/mantle-op-geth/eth/ethconfig"
+	"github.com/tenderly/mantle-op-geth/internal/jsre"
+	"github.com/tenderly/mantle-op-geth/miner"
+	"github.com/tenderly/mantle-op-geth/node"
 )
 
 const (

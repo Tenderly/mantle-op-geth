@@ -27,11 +27,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/ethdb/leveldb"
-	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/ethereum/go-ethereum/log"
+	"github.com/tenderly/mantle-op-geth/common"
+	"github.com/tenderly/mantle-op-geth/ethdb"
+	"github.com/tenderly/mantle-op-geth/ethdb/leveldb"
+	"github.com/tenderly/mantle-op-geth/ethdb/memorydb"
+	"github.com/tenderly/mantle-op-geth/log"
 	"github.com/olekukonko/tablewriter"
 )
 
